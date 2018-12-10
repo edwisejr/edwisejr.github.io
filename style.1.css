@@ -1,0 +1,74 @@
+#Title{
+
+    text-align: left;
+    font-size: 3em;
+
+}
+
+#head{
+    background-color: Black;
+    color: white;
+}
+
+.top-buffer { margin-top:20px; }
+
+#grid {
+    align-self: auto;
+}
+#homelink { 
+    color: white;
+            text-decoration: none;
+} 
+
+#dropdownMenu1{
+    text-align: right;
+    right: 0px;
+    width: 60px;
+    padding: 6px;
+}
+
+/* Style the Image Used to Trigger the Modal */
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.3;}
+
+
+/* * {
+    margin: 0;
+    padding: 0;
+    border: 0;
+  } */
+  
+  /* relevant styles */
+  .img__wrap {
+    position: relative;
+    height: 125px;
+    width: 257px;
+  }
+  
+  .img__description {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background:  rgba(235, 229, 229, 0.9);
+    color: rgba(0,0,0,1);
+    visibility: hidden;
+    opacity: 0;
+  
+    /* transition effect. not necessary */
+    transition: opacity .2s, visibility .2s;
+  }
+  
+  .img__wrap:hover .img__description {
+    visibility: visible;
+    opacity: 1;
+  }
+
+
+  
